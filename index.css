@@ -1,0 +1,79 @@
+.teammatch-keys{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.team-main-logo{
+    width: 90%;
+    margin-top:30px;
+    /* margin-left: 20px; */
+}
+.latestmatch-heading{
+    margin-bottom: 0px;
+    /* margin-left: 30px; */
+    color: white;
+    font-size: 5vw;
+    text-align: left;
+}
+
+.latestmatch-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width:100vw;
+    min-height: 50vh;
+}
+.recentmatches{
+    width: 100%;
+    height:50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.red{
+    background-color: red;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.pink{
+    background-color: palevioletred;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.darkblue{
+    background-color: darkblue;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.matchcard-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@media (min-width:320px) and (max-width:700px){
+    .team-main-logo{
+        width:80%;
+    }
+}
